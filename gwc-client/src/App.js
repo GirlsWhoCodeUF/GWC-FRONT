@@ -1,29 +1,26 @@
 import "./App.css";
+import { Container } from "semantic-ui-react";
 import {
   BrowserRouter as Router,
   Navigate,
   Route,
   Routes,
 } from "react-router-dom";
-
-import About from "./pages/About/About";
-import Calendar from "./pages/Calendar/Calendar";
-import Home from "./pages/Home/Home";
-import Login from "./pages/Login/Login";
+import Navbar from "./components/Navbar";
+import {About, Calendar, Home, Login,Contact} from './pages';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/login" component={Login} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/calendar" component={Calendar} />
-        <Route>
-          <Navigate to="/" />
-        </Route>
-      </Routes>
-    </Router>
+    <Routes>
+      <Container>
+      <Navbar/>
+      <Route exact path = '/' element ={<Home/>} />
+      <Route exact path = '/login' element ={<Login/>} />
+      <Route exact path = '/about' element ={<About/>} />
+      <Route exact path = '/calendar' element ={<Calendar/>} />
+      <Route exact path = '/contact' element ={<Contact/>} />
+      </Container>
+    </Routes>
   );
 }
 
