@@ -6,10 +6,6 @@ import {
 
 import {About, Calendar, Home, Login} from './pages';
 
-{/*import About from "./pages/About/About";
-import Calendar from "./pages/Calendar/Calendar";
-import Home from "./pages/Home/Home";
-import Login from "./pages/Login/Login";*/}
 
 function App() {
 
