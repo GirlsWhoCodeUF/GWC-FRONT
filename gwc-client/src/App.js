@@ -6,7 +6,6 @@ import {
 
 import {About, Calendar, Home, Login} from './pages';
 
-
 function App() {
 
   return (
