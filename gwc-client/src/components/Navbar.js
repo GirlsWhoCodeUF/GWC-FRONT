@@ -32,13 +32,6 @@ function Navbar() {
         to="/"
       />
        <Menu.Item
-        name="Contact"
-        active={activeItem == "Contact"}
-        onClick={handleItemClick}
-        as={Link}
-        to="/"
-      />
-       <Menu.Item
         name="Login"
         active={activeItem == "Login"}
         onClick={handleItemClick}
@@ -48,7 +41,7 @@ function Navbar() {
 
     </Menu>
   );
-  return Navbar;
+  
 }
 
 export default Navbar;
