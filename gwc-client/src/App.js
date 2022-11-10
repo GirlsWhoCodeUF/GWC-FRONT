@@ -15,10 +15,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/login" component={Login} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/calendar" component={Calendar} />
+        <Route exact path="/" element={Home} />
+        <Route exact path="/login" element={Login} />
+        <Route exact path="/about" element={About} />
+        <Route exact path="/calendar" element={Calendar} />
         <Route>
           <Navigate to="/" />
         </Route>
