@@ -1,4 +1,5 @@
 import "./App.css";
+import Page from "./pages/Page";
 import {
   Route,
   Routes,
@@ -10,8 +11,8 @@ function App() {
 
   return (
       <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/login" element={<Login/>} />
+        <Route exact path="/" element={<Page content={<Home />}/>} />
+        <Route exact path="/login" element={<Page content={<Login/>}/>} />
         <Route exact path="/about" element={<About/>} />
         <Route exact path="/calendar" element={<Calendar/>} />
       </Routes>
