@@ -1,7 +1,6 @@
-import PlaceHolderImage from "../OfficerImages/PlaceHolder.png";
+import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
 import { Container, Card, Header, Divider } from "semantic-ui-react";
-
 
 function ContactInfo() {
   return (

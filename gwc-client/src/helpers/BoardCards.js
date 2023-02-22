@@ -11,9 +11,9 @@ function BoardCards(image, name, position) {
                 <Card.Header>{name}</Card.Header>
                     <Divider hidden />
                         <div>
-                            <div className='ui two buttons'>
-                                <Button color='teal'> Contact Me </Button>
-                            </div>
+                          <div className='ui two buttons'>
+                              <Button color='teal'> Contact Me </Button>
+                          </div>
                         </div>
         </Card.Content>
       </Card>
