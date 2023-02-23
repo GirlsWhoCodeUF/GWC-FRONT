@@ -22,6 +22,7 @@
     background-color: #0DA195;
     width: 60%;
     height: 100%;
+    position: inherit;
 }
 
 .right-box {
@@ -36,6 +37,7 @@
     padding-left: 7%;
     color: white;
     font-family: 'Open Sans';
+    position: relative;
 
 }
 .org-name span{
@@ -45,6 +47,8 @@
     padding-top: 0%;
     padding-left: 7%;
     display: block;
+    position: relative;
+    
 }
 
 .statement{
@@ -52,5 +56,7 @@
     padding-left: 7.5%;
     font-family:'Open Sans';
     font-style: italic;
-    font-size: 22px;
+    font-size: 20px;
+    position: relative;
+
 }
