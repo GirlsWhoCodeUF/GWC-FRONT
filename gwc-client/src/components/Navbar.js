@@ -1,7 +1,7 @@
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import './Navbar.css'
+import styles from './Navbar.css'
 import logo from  '../media/HomeLogo.png';
 
 function NavBar(){
@@ -13,14 +13,14 @@ function NavBar(){
 
 
    return(
-       <Menu className='navbar'>
+       <Menu secondary className='navbar'>
         <Menu.Item 
            onClick={handleItemClick}
            as={Link}
            to="/">
-           <img src={logo} alt="" />
+           <img className='picture' src={logo} alt="" />
         </Menu.Item> 
-     <Menu.Menu secondary className='navbar-right'>
+     <Menu.Menu position='right' >
        <Menu.Item
        name="About Us"
        active={activeItem === 'about us'}
@@ -49,7 +49,6 @@ function NavBar(){
        as={Link}
        to="/Contact"
      />
-  
        <Menu.Item
        name ="Members"
        active={activeItem === 'Members'}

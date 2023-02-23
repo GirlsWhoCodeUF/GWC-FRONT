@@ -1,20 +1,17 @@
 
 .navbar{
     background-color: black;
-    box-sizing: border-box;
     height: 90px;
     color:aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 45px;
-}
-.navbar a{
-    color: inherit;
-    text-decoration: none;
     padding: 30px 30px
-    
+}
+
+.picture{
+    width: 200px !important;
 }
 
 .navbar-right{
