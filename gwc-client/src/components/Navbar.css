@@ -1,20 +1,21 @@
 
 .navbar{
-    background-color: black;
-    height: 90px;
-    color:aliceblue;
+    background-color: black !important;
+    height: 90px;  
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 45px;
     padding: 30px 30px
 }
+.navbar-words{
+    color: aliceblue !important;
+    font-size: 15px;
 
+}
+.navbar-words:hover{
+    font-weight:bolder !important;
+}
 .picture{
     width: 200px !important;
-}
-
-.navbar-right{
-    float:right;
-    justify-content: space-between;
 }
