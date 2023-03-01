@@ -13,12 +13,16 @@ const panes = [
               {" "}
               <divider /> <Header as="h1"> Meet Our E-Board </Header>{" "}
             </Container>
+
+            
             {BoardCards(
               PlaceHolderImage,
               "Maya Harris",
               "President",
               "email@GWC.com"
             )}
+            
+
             {BoardCards(
               PlaceHolderImage,
               "Victoria De Alba",
@@ -37,12 +41,15 @@ const panes = [
               "Secretary",
               "email@GWC.com"
             )}
+            
+            
             {BoardCards(
               PlaceHolderImage,
               "Lexi Watson",
               "Treasurer",
               "email@GWC.com"
             )}
+           
           </Card.Group>
         </Container>
       </Tab.Pane>
@@ -227,5 +234,13 @@ function ContactInfo() {
     </Container>
   );
 }
+
+const CardExampleFluid = () => (
+  <Card.Group>
+    <Card fluid color='red' header='Option 1' />
+    <Card fluid color='orange' header='Option 2' />
+    <Card fluid color='yellow' header='Option 3' />
+  </Card.Group>
+)
 
 export default ContactInfo;

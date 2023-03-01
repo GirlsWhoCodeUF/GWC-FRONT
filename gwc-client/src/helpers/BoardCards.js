@@ -4,7 +4,7 @@ import { Card, Button, Image, Divider, Segment, Container, Header } from "semant
 function BoardCards(image, name, position) {
   return (
     <>
-      <Card>
+      <Card fluid>
         <Card.Content textAlign="center">
         <Header as='h5'>{position}</Header>
             <Image floated='center' size= 'medium' src = {image} circular/>
