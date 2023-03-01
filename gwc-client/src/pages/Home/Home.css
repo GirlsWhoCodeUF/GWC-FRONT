@@ -1,12 +1,16 @@
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .home {
-    background-color: #000000;
-    height: 100vh;
+    background-color: black;
+    min-height: 100vh;
     width: 100hw;
-    border: solid 3px black
 }
 
 .landing-info {
-    margin-top: 12%;
     height: 55%;
     width: 100%;
 }
@@ -24,6 +28,13 @@
     height: 100%;
 }
 
+.left-box-text {
+    /* background-color: black; */
+    margin: 100px;
+    color: white;
+    font-family: 'Open Sans';
+}
+
 .right-box {
     background-color: #D7F9F4;
     width: 40%;
@@ -33,4 +44,22 @@
 .school-name {
     color: white;
     font-family: 'Open Sans';
+}
+
+.mission-text {
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    color: white;
+    font-family: 'Open Sans';
+    text-align: left;
+}
+
+.testimonials {
+    padding-bottom: 100px;
+}
+
+.meta {
+    display: block;
 }
