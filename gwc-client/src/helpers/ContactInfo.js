@@ -167,6 +167,12 @@ const panes = [
             )}
             {BoardCards(
               PlaceHolderImage,
+              "Veronica Soden",
+              "Senior Developer",
+              "email@GWC.com"
+            )}
+            {BoardCards(
+              PlaceHolderImage,
               "Anushka Lakam",
               "Senior Developer",
               "email@GWC.com"
