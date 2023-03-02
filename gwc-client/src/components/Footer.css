@@ -5,6 +5,7 @@
     color: white;
     width: 100hw;
     justify-content: space-around;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .column {
@@ -18,6 +19,10 @@
     text-decoration: none;
     color: white;
     padding: 5px;
+}
+
+.row:hover {
+    font-weight: bolder;
 }
 
 

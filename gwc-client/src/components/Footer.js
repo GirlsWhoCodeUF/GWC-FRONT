@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
 import { FaInstagram, FaLinkedin} from 'react-icons/fa'
-import icon from '../media/group_me_icon.png'
 
 const Footer = () => {
   return (
