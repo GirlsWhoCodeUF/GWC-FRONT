@@ -5,7 +5,13 @@ function Page({ content }) {
   return (
     <>
         <NavBar />
-        <div>
+        <div style={{
+            backgroundColor: 'black',
+            width: '100hw',
+            height: '100vh',
+            color: 'white'
+            }}
+        >
             {content}
         </div>
     </>

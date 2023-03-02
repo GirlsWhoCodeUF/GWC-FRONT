@@ -3,7 +3,9 @@ import React from 'react'
 const Calendar = () => {
 
   return (
-    <div>Calendar copy and paste your code here </div>
+    <div style={{
+      color: 'white'
+    }}>Calendar copy and paste your code here </div>
   )
 };
 
