@@ -1,0 +1,27 @@
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100hw;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column; 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+.logo {
+    color: cadetblue;
+    padding-right: 10px;
+}
