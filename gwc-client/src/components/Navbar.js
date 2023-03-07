@@ -1,8 +1,8 @@
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import './Navbar.css'
-
+import styles from './Navbar.css'
+import logo from  '../media/HomeLogo.png';
 
 function NavBar(){
   
@@ -13,16 +13,16 @@ function NavBar(){
 
 
    return(
-       <Menu className='navbar'>
+       <Menu secondary className='navbar'>
+        <Menu.Item 
+           onClick={handleItemClick}
+           as={Link}
+           to="/">
+           <img className='picture' src={logo} alt="" />
+        </Menu.Item> 
+     <Menu.Menu position='right' >
        <Menu.Item
-       name="Home"
-       active={activeItem === 'home'}
-       onClick={handleItemClick}
-       as={Link}
-       to="/"
-     />
-     <Menu.Menu secondary className='navbar-right'>
-       <Menu.Item
+       className='navbar-words'
        name="About Us"
        active={activeItem === 'about us'}
        onClick={handleItemClick}
@@ -30,6 +30,7 @@ function NavBar(){
        to="/About"
      />
      <Menu.Item
+      className='navbar-words'
        name="Calendar"
        active={activeItem === 'Calendar'}
        onClick={handleItemClick}
@@ -37,6 +38,7 @@ function NavBar(){
        to="/Calendar"
      />
       <Menu.Item
+       className='navbar-words'
        name="Our Team"
        active={activeItem === 'Our Team'}
        onClick={handleItemClick}
@@ -44,14 +46,15 @@ function NavBar(){
        to="/OurTeam"
      />
       <Menu.Item
+       className='navbar-words'
        name="Contact Us"
        active={activeItem === 'Contact Us'}
        onClick={handleItemClick}
        as={Link}
        to="/Contact"
      />
-  
        <Menu.Item
+       className='navbar-words'
        name ="Members"
        active={activeItem === 'Members'}
        onClick={handleItemClick}

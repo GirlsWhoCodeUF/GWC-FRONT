@@ -1,11 +1,11 @@
 .home {
     height: 100vh;
     width: 100hw;
-    border: solid 3px black
+    
 }
 
 .landing-info {
-    margin-top: 12%;
+    margin-top: 0%;
     height: 55%;
     width: 100%;
 }
@@ -21,6 +21,7 @@
     background-color: #0DA195;
     width: 60%;
     height: 100%;
+    position: inherit;
 }
 
 .right-box {
@@ -30,6 +31,31 @@
 }
 
 .school-name {
+    padding-top: 1.5%;
+    padding-bottom: 0%;
+    padding-left: 7%;
     color: white;
     font-family: 'Open Sans';
+    position: relative;
+
+}
+.org-name span{
+    color:white;
+    font-size: 75px;
+    word-spacing: 0%;
+    padding-top: 0%;
+    padding-left: 7%;
+    display: block;
+    position: relative;
+    
+}
+
+.statement{
+    color:white;
+    padding-left: 7.5%;
+    font-family:'Open Sans';
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+
 }

@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
+import 'semantic-ui-css/semantic.min.css';
 import {About, Calendar, Contact, Home, Login} from './pages';
 import OurTeam from "./pages/OurTeam/OurTeam";
 
