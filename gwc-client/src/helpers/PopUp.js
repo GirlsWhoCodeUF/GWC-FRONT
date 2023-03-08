@@ -1,47 +1,23 @@
-import React, { Component } from 'react'
-import { Button, Grid, Header, Segment, Portal } from 'semantic-ui-react'
+import { Portal, Segment, Header } from 'semantic-ui-react';
+import { useState } from 'react';
 
-export default class OfficerPortal extends Component {
-  state = { open: false }
+function PopUpInfo(email) {
+  const [showPortal, setShowPortal] = useState(false);
 
-  handleClose = () => this.setState({ open: false })
-  handleOpen = () => this.setState({ open: true })
-
-  render() {
-    const { open } = this.state
-
-    return (
-      <Grid columns={1} >
-        <Grid.Column>
-          <Button
-            color='teal'
-            content='Contact Me'
-            disabled={open}
-            onClick={this.handleOpen}
-          />
-
-          <Portal onClose={this.handleClose} open={open}>
-            <Segment
-              style={{
-                left: '40%',
-                position: 'fixed',
-                top: '50%',
-                zIndex: 1000,
-              }}
-            >
-              <Header>Contact Information</Header>
-              <p>Portals have tons of great callback functions to hook into.</p>
-              <p>To close, simply click the close button or click away</p>
-
-              <Button
-                color='teal'
-                content='Close'
-                onClick={this.handleClose}
-              />
-            </Segment>
-          </Portal>
-        </Grid.Column>
-      </Grid>
-    )
-  }
+  return (
+    <div>
+      <button onClick={() => setShowPortal(true)}>Show Portal</button>
+      {showPortal && (
+        <Portal>
+          <Segment style={{ left: '50%', position: 'fixed', top: '50%', zIndex: 1000 }}>
+            <Header>This is a portal</Header>
+            <p>{email}</p>
+            <button onClick={() => setShowPortal(false)}>Close Portal</button>
+          </Segment>
+        </Portal>
+      )}
+    </div>
+  );
 }
+
+export default PopUpInfo;
