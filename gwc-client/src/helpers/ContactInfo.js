@@ -5,6 +5,7 @@ import WebTeamCards from "../../src/helpers/WebTeamCards";
 import ExecCards from "../../src/helpers/ExecCards";
 import ChairCards from "./ChairCards";
 
+
 import { createMedia } from "@artsy/fresnel";
 
 const AppMedia = createMedia({
@@ -109,7 +110,7 @@ const panes = [
 
 function ContactInfo() {
   return (
-    <Container className={styles.container}>
+    <Container className='container'>
       <Tab panes={panes} />
     </Container>
   );

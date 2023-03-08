@@ -1,8 +1,7 @@
 import React from "react";
 import { Card, Button, Image, Divider, Segment, Container, Header } from "semantic-ui-react";
-import PopUpInfo from "./PopUp"
 
-function BoardCards(image, name, position, email) {
+function BoardCards(image, name, position) {
   return (
     <>
       <Card fluid>
@@ -11,7 +10,11 @@ function BoardCards(image, name, position, email) {
             <Image floated='center' size= 'medium' src = {image} circular/>
                 <Card.Header>{name}</Card.Header>
                     <Divider hidden />
-                    {PopUpInfo({email})}
+                        <div>
+                          <div className='ui two buttons'>
+                              <Button color='teal'> Contact Me </Button>
+                          </div>
+                        </div>
         </Card.Content>
       </Card>
     </>
@@ -19,4 +22,3 @@ function BoardCards(image, name, position, email) {
 }
 
 export default BoardCards;
-

@@ -1,10 +1,10 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
-import JuliaChanceyImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/JuliaChancey.JPG"
-import VictoriaDeAlbaExternalVPImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/VictoriaDeAlbaExternalVP.jpeg"
-import NandikaRegattiImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/NandikaRegatti.PNG"
-import GayatriBaskaranImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/GayatriBaskaran.jpg"
-import VeronicaSodenImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/VeronicaSoden.JPG"
+import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG"
+import VictoriaDeAlbaExternalVPImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg"
+import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
+import GayatriBaskaranImage from "../officerImages/GayatriBaskaran.jpg"
+import VeronicaSodenImage from "../officerImages/VeronicaSoden.JPG"
 
 function WebTeamCards() {
   return (
