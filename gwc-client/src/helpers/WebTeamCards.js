@@ -1,11 +1,16 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
+import JuliaChanceyImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/JuliaChancey.JPG"
+import VictoriaDeAlbaExternalVPImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/VictoriaDeAlbaExternalVP.jpeg"
+import NandikaRegattiImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/NandikaRegatti.PNG"
+import GayatriBaskaranImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/GayatriBaskaran.jpg"
+import VeronicaSodenImage from "c:/Users/bgaya/GWCgood/GWC-FRONT/gwc-client/src/officerImages/VeronicaSoden.JPG"
 
 function WebTeamCards() {
   return (
     <>
       {BoardCards(
-        PlaceHolderImage,
+        JuliaChanceyImage,
         "Julia Chancey",
         "Scrum Master",
         "email@GWC.com"
@@ -17,7 +22,7 @@ function WebTeamCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        VictoriaDeAlbaExternalVPImage,
         "Victoria De Alba",
         "External VP",
         "email@GWC.com"
@@ -47,6 +52,12 @@ function WebTeamCards() {
         "email@GWC.com"
       )}
       {BoardCards(
+        VeronicaSodenImage,
+        "Veronica Soden",
+        "Senior Developer",
+        "email@GWC.com"
+      )}
+      {BoardCards(
         PlaceHolderImage,
         "Michelle Taing",
         "Junior Developer",
@@ -59,13 +70,13 @@ function WebTeamCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        GayatriBaskaranImage,
         "Gayatri Baskaran",
         "Junior Developer",
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        NandikaRegattiImage,
         "Nandika Regatti",
         "Junior Developer",
         "email@GWC.com"
