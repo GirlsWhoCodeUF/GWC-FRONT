@@ -1,5 +1,10 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
+import TanyaCharanImage from "../officerImages/TanyaCharan.jpeg"
+import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
+import KaylaMobergImage from "../officerImages/KaylaMoberg.jpeg"
+import SophiaKeaneImage from "../officerImages/SophiaKeane.jpg"
+import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG"
 
 function ChairCards() {
   return (
@@ -17,13 +22,13 @@ function ChairCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        TanyaCharanImage,
         "Tanya Charan",
         "Communications",
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        NandikaRegattiImage,
         "Nandika Regatti",
         "Membership (Recruitment)",
         "email@GWC.com"
@@ -40,9 +45,14 @@ function ChairCards() {
         "Membership (Mentorship)",
         "email@GWC.com"
       )}
-      {BoardCards(PlaceHolderImage, "Sophia Keane", "Social", "email@GWC.com")}
       {BoardCards(
-        PlaceHolderImage,
+        SophiaKeaneImage, 
+        "Sophia Keane", 
+        "Social", 
+        "email@GWC.com"
+      )}
+      {BoardCards(
+        KaylaMobergImage,
         "Kayla Moberg",
         "Fundraiser",
         "email@GWC.com"
@@ -54,7 +64,7 @@ function ChairCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        JuliaChanceyImage,
         "Julia Chancey",
         "Scrum Master (WebDev)",
         "email@GWC.com"
