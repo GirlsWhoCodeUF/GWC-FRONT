@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button, Image, Divider, Segment, Container, Header } from "semantic-ui-react";
+import PopupInfo from "../helpers/PopUp";
 
 function BoardCards(image, name, position) {
   return (

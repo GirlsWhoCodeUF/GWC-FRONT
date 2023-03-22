@@ -1,11 +1,19 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
+import JessBogartImage from "../officerImages/JessicaBogart.PNG"
+import TanyaCharanImage from "../officerImages/TanyaCharan.jpeg"
+import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
+import KaylaMobergImage from "../officerImages/KaylaMoberg.jpeg"
+import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG"
+import MirandaIngramImage from "../officerImages/MirandaIngram.HEIC"
+import SophiaKeaneImage from "../officerImages/SophiaKeane.jpg"
+
 
 function ChairCards() {
   return (
     <>
       {BoardCards(
-        PlaceHolderImage,
+        JessBogartImage,
         "Jess Bogart",
         "Organization",
         "email@GWC.com"
@@ -17,16 +25,16 @@ function ChairCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        TanyaCharanImage,
         "Tanya Charan",
         "Communications",
-        "email@GWC.com"
+        "tanyacharan@ufl.edu"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        NandikaRegattiImage,
         "Nandika Regatti",
         "Membership (Recruitment)",
-        "email@GWC.com"
+        "nandika.regatti@ufl.edu"
       )}
       {BoardCards(
         PlaceHolderImage,
@@ -40,12 +48,17 @@ function ChairCards() {
         "Membership (Mentorship)",
         "email@GWC.com"
       )}
-      {BoardCards(PlaceHolderImage, "Sophia Keane", "Social", "email@GWC.com")}
       {BoardCards(
-        PlaceHolderImage,
+        SophiaKeaneImage, 
+        "Sophia Keane", 
+        "Social", 
+        "sophia.keane@ufl.edu")}
+
+      {BoardCards(
+        KaylaMobergImage,
         "Kayla Moberg",
         "Fundraiser",
-        "email@GWC.com"
+        "Kaylamoberg@ufl.edu"
       )}
       {BoardCards(
         PlaceHolderImage,
@@ -54,10 +67,10 @@ function ChairCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        JuliaChanceyImage,
         "Julia Chancey",
         "Scrum Master (WebDev)",
-        "email@GWC.com"
+        "julia.chancey@ufl.edu"
       )}
       {BoardCards(
         PlaceHolderImage,
@@ -66,10 +79,10 @@ function ChairCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        MirandaIngramImage,
         "Miranda Ingram",
         "Workshop",
-        "email@GWC.com"
+        "miranda.ingram@ufl.edu"
       )}
     </>
   );

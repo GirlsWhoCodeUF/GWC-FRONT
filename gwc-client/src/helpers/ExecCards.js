@@ -1,33 +1,37 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
+import MayaHarrisImage from "../officerImages/MayaHarris.JPG"
+import VictoriaDeAlbaImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg"
+import DishaGaonkarImage from "../officerImages/DishaGaonkar.jpg"
+import MaiaGervasoneImage from "../officerImages/MaiaGervasone.jpg"
 
 function ExecCards() {
   return (
     <>
       {BoardCards(
-        PlaceHolderImage,
+        MayaHarrisImage,
         "Maya Harris",
         "President",
         "email@GWC.com"
       )}
 
       {BoardCards(
-        PlaceHolderImage,
+        VictoriaDeAlbaImage,
         "Victoria De Alba",
         "Vice-President External",
-        "email@GWC.com"
+        "victoriadealba@ufl.edu"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        DishaGaonkarImage,
         "Disha Gaonkar",
         "Vice-President Internal",
-        "email@GWC.com"
+        "dishagaonkar@ufl.edu"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        MaiaGervasoneImage,
         "Maia Gervasone",
         "Secretary",
-        "email@GWC.com"
+        "maiagervasone@ufl.edu"
       )}
 
       {BoardCards(
