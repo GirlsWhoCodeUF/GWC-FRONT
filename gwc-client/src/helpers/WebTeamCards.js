@@ -44,7 +44,7 @@ function WebTeamCards() {
         KellyChenImage,
         "Kelly Chen",
         "Senior Developer",
-        "kellychen@ufl.edu"
+        "email@GWC.com"
       )}
       {BoardCards(
         PlaceHolderImage,

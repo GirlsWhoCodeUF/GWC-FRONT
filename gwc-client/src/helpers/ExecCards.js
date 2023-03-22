@@ -19,13 +19,13 @@ function ExecCards() {
         VictoriaDeAlbaImage,
         "Victoria De Alba",
         "Vice-President External",
-        "victoriadealba@ufl.edu"
+        "email@GWC.com"
       )}
       {BoardCards(
         DishaGaonkarImage,
         "Disha Gaonkar",
         "Vice-President Internal",
-        "dishagaonkar@ufl.edu"
+        "email@GWC.com"
       )}
       {BoardCards(
         MaiaGervasoneImage,

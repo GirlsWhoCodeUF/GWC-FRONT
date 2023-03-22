@@ -52,8 +52,8 @@ function ChairCards() {
         SophiaKeaneImage, 
         "Sophia Keane", 
         "Social", 
-        "sophia.keane@ufl.edu")}
-
+        "email@GWC.com"
+      )}
       {BoardCards(
         KaylaMobergImage,
         "Kayla Moberg",
