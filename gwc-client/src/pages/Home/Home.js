@@ -3,23 +3,17 @@ import './Home.css'
 import NavBar from '../../components/Navbar'
 import { Button } from 'semantic-ui-react'
 
-
 const Home = () => {
   return (
     <div className="home">
-      <div className="landing-info">
-        <div className="background">
-          <div className="left-box">
-            <div className="left-box-text">
-              <h2 className="school-name">University of Florida</h2>
-              <h1 className="club-name">GIRLS WHO CODE</h1>
-              <h3>On a mission to close the gender gap in tech.</h3>
-              <Button>Learn More</Button>
+      <div class='ui inverted vertical masthead center aligned segment hero'>
+            <div class='ui text container'>
+                <h1 class='ui inverted header'>Girls Who Code @ UF</h1>
+                <h2>On a mission to close the gender gap in tech.</h2>
+                <button class='ui huge secondary button'>
+                    Learn More <i class='right arrow icon'></i>
+                </button>
             </div>
-          </div>
-          <div className="right-box"></div>
-        </div>
-        <div className="event-box"></div>
       </div>
       
       <div className="mission-text">

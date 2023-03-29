@@ -63,3 +63,11 @@ h1 {
 .meta {
     display: block;
 }
+
+.ui.masthead.segment {
+    padding: 10%;
+    background-image: url("temp-hero.jpeg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    width: 100% !important;
+}
