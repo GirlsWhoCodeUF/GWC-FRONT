@@ -6,6 +6,7 @@ import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
 import GayatriBaskaranImage from "../officerImages/GayatriBaskaran.jpg"
 import VeronicaSodenImage from "../officerImages/VeronicaSoden.JPG"
 import KellyChenImage from "../officerImages/kelly_chen.jpg"
+import AparnaNimmagaddaImage from "../officerImages/AparnaNimmagadda.jpg"
 
 function WebTeamCards() {
   return (
@@ -35,7 +36,7 @@ function WebTeamCards() {
         "email@GWC.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        AparnaNimmagaddaImage,
         "Aparna Nimmaggada",
         "Senior Developer",
         "email@GWC.com"
@@ -44,7 +45,7 @@ function WebTeamCards() {
         KellyChenImage,
         "Kelly Chen",
         "Senior Developer",
-        "email@GWC.com"
+        "kellychen@ufl.edu"
       )}
       {BoardCards(
         PlaceHolderImage,
