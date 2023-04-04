@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       
       <div className="mission-text">
-        <div class="ui stackable relaxed three column grid">
+        <div class="ui stackable relaxed three column grid container">
           <div class="column">
             <h2>BUILD SISTERHOOD</h2>
             <h3>College & Career programs connect young women and non-binary people who are interested in tech to build a supportive community that helps them persist and succeed in the field.</h3>
@@ -35,7 +35,7 @@ const Home = () => {
 
       <h1>TESTIMONIALS</h1>
       <div className="testimonials">
-        <div class="ui centered stackable cards">
+        <div class="ui centered stackable cards container">
           <div class="card">
             <div class="image">
               <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"></img>
