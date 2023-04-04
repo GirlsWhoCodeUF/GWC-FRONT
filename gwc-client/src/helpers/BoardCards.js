@@ -1,25 +1,28 @@
-import React from "react";
-import { Card, Button, Image, Divider, Segment, Container, Header } from "semantic-ui-react";
-import PopupInfo from "../helpers/PopUp";
+import React from 'react';
+import { Card, Image, Header, Divider } from 'semantic-ui-react';
+import GenerateModal from './generateModal';
 
-function BoardCards(image, name, position) {
+const BoardCards = (image, name, position, email) => {
+  const popup = GenerateModal({name, position, email});
+
   return (
-    <>
-      <Card fluid>
+    <Card fluid>
         <Card.Content textAlign="center">
         <Header as='h5'>{position}</Header>
-            <Image floated='center' size= 'medium' src = {image} circular/>
+          <Image
+            floated='center'
+            src={image}
+            circular
+            style={{ width: '400px', height: '400px', objectFit: 'cover' }}
+          />
                 <Card.Header>{name}</Card.Header>
                     <Divider hidden />
                         <div>
-                          <div className='ui two buttons'>
-                              <Button color='teal'> Contact Me </Button>
-                          </div>
+                          {popup}
                         </div>
         </Card.Content>
       </Card>
-    </>
   );
-}
+};
 
 export default BoardCards;
