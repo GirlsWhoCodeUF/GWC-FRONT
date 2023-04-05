@@ -27,7 +27,7 @@ const Home = () => {
             <h3>College & Careers offer students and young professionals opportunities to practice leadership and learn from peers and industry role models.</h3>
           </div>
           <div class="column">
-            <h2>BUILD LEADERSHIP</h2>
+            <h2>BUILD YOUR CAREER</h2>
             <h3>College & Career programs provide college-aged students and early career professionals with exclusive opportunities to build relationships with industry professionals, develop and practice key skills, and connect with Girls Who Code corporate partners for internships and jobs.</h3>
           </div>
         </div>
