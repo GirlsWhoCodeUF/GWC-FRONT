@@ -5,8 +5,9 @@ import TanyaCharanImage from "../officerImages/TanyaCharan.jpeg"
 import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
 import KaylaMobergImage from "../officerImages/KaylaMoberg.jpeg"
 import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG"
-import MirandaIngramImage from "../officerImages/MirandaIngram.HEIC"
+import MirandaIngramImage from "../officerImages/MirandaIngram.jpg"
 import SophiaKeaneImage from "../officerImages/SophiaKeane.jpg"
+import BriannaRodriguezImage from "../officerImages/BriannaRodriguez.PNG"
 
 
 function ChairCards() {
@@ -16,13 +17,13 @@ function ChairCards() {
         JessBogartImage,
         "Jess Bogart",
         "Organization",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         PlaceHolderImage,
         "Kimberly Montalvo",
         "Graphic Design",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         TanyaCharanImage,
@@ -40,19 +41,19 @@ function ChairCards() {
         PlaceHolderImage,
         "Ursa Pillay",
         "Membership (Room Lead)",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         PlaceHolderImage,
         "Samitha Kosanam",
         "Membership (Mentorship)",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         SophiaKeaneImage, 
         "Sophia Keane", 
         "Social", 
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         KaylaMobergImage,
@@ -64,7 +65,7 @@ function ChairCards() {
         PlaceHolderImage,
         "Megan Shah",
         "Sponsorship",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         JuliaChanceyImage,
@@ -73,10 +74,10 @@ function ChairCards() {
         "julia.chancey@ufl.edu"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        BriannaRodriguezImage,
         "Brianna Rodriguez",
         "Project Manager",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         MirandaIngramImage,

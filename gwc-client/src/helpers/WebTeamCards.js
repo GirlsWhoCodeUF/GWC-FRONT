@@ -7,6 +7,9 @@ import GayatriBaskaranImage from "../officerImages/GayatriBaskaran.jpg"
 import VeronicaSodenImage from "../officerImages/VeronicaSoden.JPG"
 import KellyChenImage from "../officerImages/kelly_chen.jpg"
 import AparnaNimmagaddaImage from "../officerImages/AparnaNimmagadda.jpg"
+import BriannaRodriguezImage from "../officerImages/BriannaRodriguez.PNG"
+import MichelleTaingImage from "../officerImages/MichelleTaing.JPG"
+import SunayanaSattaruImage from "../officerImages/SunayanaSattaru.jpg"
 
 function WebTeamCards() {
   return (
@@ -18,28 +21,28 @@ function WebTeamCards() {
         "julia.chancey@ufl.edu"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        BriannaRodriguezImage,
         "Brianna Rodriguez",
         "Project Manager",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         VictoriaDeAlbaExternalVPImage,
         "Victoria De Alba",
         "External VP",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         PlaceHolderImage,
         "Anushka Lakam",
         "Senior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         AparnaNimmagaddaImage,
         "Aparna Nimmaggada",
         "Senior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         KellyChenImage,
@@ -48,40 +51,40 @@ function WebTeamCards() {
         "kellychen@ufl.edu"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        SunayanaSattaruImage,
         "Sunayana Sattaru",
         "Senior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         VeronicaSodenImage,
         "Veronica Soden",
         "Senior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
-        PlaceHolderImage,
+        MichelleTaingImage,
         "Michelle Taing",
         "Junior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         PlaceHolderImage,
         "Shaina Desroches",
         "Junior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         GayatriBaskaranImage,
         "Gayatri Baskaran",
         "Junior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         NandikaRegattiImage,
         "Nandika Regatti",
         "Junior Developer",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
     </>
   );

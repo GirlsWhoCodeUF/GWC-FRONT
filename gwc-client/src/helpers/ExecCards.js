@@ -12,33 +12,34 @@ function ExecCards() {
         MayaHarrisImage,
         "Maya Harris",
         "President",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
 
       {BoardCards(
         VictoriaDeAlbaImage,
         "Victoria De Alba",
         "Vice-President External",
-        "email@GWC.com"
+        "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
         DishaGaonkarImage,
         "Disha Gaonkar",
         "Vice-President Internal",
-        "email@GWC.com"
-      )}
-      {BoardCards(
-        MaiaGervasoneImage,
-        "Maia Gervasone",
-        "Secretary",
-        "maiagervasone@ufl.edu"
+        "girlswhocodeuf@gmail.com"
       )}
 
       {BoardCards(
         PlaceHolderImage,
         "Lexi Watson",
+        "Secretary",
+        "girlswhocodeuf@gmail.com"
+      )}
+
+        {BoardCards(
+        MaiaGervasoneImage,
+        "Maia Gervasone",
         "Treasurer",
-        "email@GWC.com"
+        "maiagervasone@ufl.edu"
       )}
     </>
   );
