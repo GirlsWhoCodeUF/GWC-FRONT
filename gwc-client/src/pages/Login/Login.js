@@ -1,16 +1,22 @@
-import React from 'react'
+import React from "react";
+import './Login.css'
 
-const Login = () => {
-
+function Login () {
   return (
-    <>
-    <div>Login</div>
-    <p>include what is in figma and then add linking to the register page for
-      a first time user </p>
-    </>
-    
+    <form>
+      <div className="form-inner">
+        <h2>Login</h2>
+        {/* Error! */}
+        <div className="form-group">
+          <label htmlFor="name">Email:</label>
+          <input type = "text" name="email" id="email" />
+      </div>
+      <div className="form-group">
+           <label htmlFor="password">Password:</label>
+           <input type = "password" name="password" id="password" />
+      </div>
+      </div>
+    </form>
   )
 }
-
-export default Login
-
+export default Login;
