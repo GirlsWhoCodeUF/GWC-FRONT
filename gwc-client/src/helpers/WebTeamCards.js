@@ -1,15 +1,15 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
-import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG"
-import VictoriaDeAlbaExternalVPImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg"
-import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
-import GayatriBaskaranImage from "../officerImages/GayatriBaskaran.jpg"
-import VeronicaSodenImage from "../officerImages/VeronicaSoden.JPG"
-import KellyChenImage from "../officerImages/kelly_chen.jpg"
-import AparnaNimmagaddaImage from "../officerImages/AparnaNimmagadda.jpg"
-import BriannaRodriguezImage from "../officerImages/BriannaRodriguez.PNG"
-import MichelleTaingImage from "../officerImages/MichelleTaing.JPG"
-import SunayanaSattaruImage from "../officerImages/SunayanaSattaru.jpg"
+import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG";
+import VictoriaDeAlbaExternalVPImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg";
+import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG";
+import GayatriBaskaranImage from "../officerImages/GayatriBaskaran.jpg";
+import VeronicaSodenImage from "../officerImages/VeronicaSoden.JPG";
+import KellyChenImage from "../officerImages/kelly_chen.jpg";
+import AparnaNimmagaddaImage from "../officerImages/AparnaNimmagadda.jpg";
+import BriannaRodriguezImage from "../officerImages/BriannaRodriguez.PNG";
+import MichelleTaingImage from "../officerImages/MichelleTaing.JPG";
+import SunayanaSattaruImage from "../officerImages/SunayanaSattaru.jpg";
 
 function WebTeamCards() {
   return (

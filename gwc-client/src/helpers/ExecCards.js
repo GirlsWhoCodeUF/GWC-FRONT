@@ -1,9 +1,9 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
-import MayaHarrisImage from "../officerImages/MayaHarris.JPG"
-import VictoriaDeAlbaImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg"
-import DishaGaonkarImage from "../officerImages/DishaGaonkar.jpg"
-import MaiaGervasoneImage from "../officerImages/MaiaGervasone.jpg"
+import MayaHarrisImage from "../officerImages/MayaHarris.JPG";
+import VictoriaDeAlbaImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg";
+import DishaGaonkarImage from "../officerImages/DishaGaonkar.jpg";
+import MaiaGervasoneImage from "../officerImages/MaiaGervasone.jpg";
 
 function ExecCards() {
   return (
@@ -35,7 +35,7 @@ function ExecCards() {
         "girlswhocodeuf@gmail.com"
       )}
 
-        {BoardCards(
+      {BoardCards(
         MaiaGervasoneImage,
         "Maia Gervasone",
         "Treasurer",
