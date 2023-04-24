@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Modal } from "semantic-ui-react";
+import React, { useState } from 'react';
+import { Button, Modal } from 'semantic-ui-react';
 
 const GenerateModal = ({ name, position, email }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const GenerateModal = ({ name, position, email }) => {
   return (
     <Modal
       trigger={
-        <Button onClick={handleOpen} color="teal">
+        <Button onClick={handleOpen} color='teal'>
           Contact Me
         </Button>
       }
