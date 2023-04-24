@@ -7,15 +7,35 @@ import NavBar from "../../components/Navbar";
 import { Button } from "semantic-ui-react";
 
 const Home = () => {
+  const pathname = window.location.pathname;
+  const path = pathname === "/" ? "home" : pathname.substr(1);
+  const [activeItem, setActiveItem] = useState(path);
+  const handleItemClick = (e, { name }) => setActiveItem(name);
+
   return (
     <div className="home">
       <div class="ui inverted vertical masthead center aligned segment hero">
         <div class="ui text container">
           <h1 class="ui inverted header">Girls Who Code @ UF</h1>
           <h2>On a mission to close the gender gap in tech.</h2>
-          <button class="ui huge secondary button">
-            Learn More <i class="right arrow icon"></i>
-          </button>
+          <h2></h2>
+          <h2></h2>
+          <Button
+            icon
+            labelPosition="right"
+            class="ui huge secondary button"
+            name="About Us"
+            active={activeItem === "about us"}
+            onclick={handleItemClick}
+            as={Link}
+            to="/About"
+            basic
+            inverted
+            size="huge"
+          >
+            Learn More
+            <Icon name="right arrow" />
+          </Button>
         </div>
       </div>
 

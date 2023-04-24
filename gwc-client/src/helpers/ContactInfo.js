@@ -5,7 +5,6 @@ import WebTeamCards from "../../src/helpers/WebTeamCards";
 import ExecCards from "../../src/helpers/ExecCards";
 import ChairCards from "./ChairCards";
 
-
 import { createMedia } from "@artsy/fresnel";
 
 const AppMedia = createMedia({
@@ -20,7 +19,7 @@ const { Media, MediaContextProvider } = AppMedia;
 const panes = [
   {
     menuItem: "Executive Board",
-    render: () => ( 
+    render: () => (
       <Tab.Pane>
         <Container>
           <Container textAlign="center">
@@ -110,7 +109,7 @@ const panes = [
 
 function ContactInfo() {
   return (
-    <Container className='container'>
+    <Container className="container">
       <Tab panes={panes} />
     </Container>
   );
@@ -118,10 +117,10 @@ function ContactInfo() {
 
 const CardExampleFluid = () => (
   <Card.Group>
-    <Card fluid color='red' header='Option 1' />
-    <Card fluid color='orange' header='Option 2' />
-    <Card fluid color='yellow' header='Option 3' />
+    <Card fluid color="red" header="Option 1" />
+    <Card fluid color="orange" header="Option 2" />
+    <Card fluid color="yellow" header="Option 3" />
   </Card.Group>
-)
+);
 
 export default ContactInfo;
