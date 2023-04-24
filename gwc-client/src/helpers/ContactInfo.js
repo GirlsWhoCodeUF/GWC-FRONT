@@ -5,7 +5,6 @@ import WebTeamCards from "../../src/helpers/WebTeamCards";
 import ExecCards from "../../src/helpers/ExecCards";
 import ChairCards from "./ChairCards";
 
-
 import { createMedia } from "@artsy/fresnel";
 
 const AppMedia = createMedia({
@@ -20,87 +19,70 @@ const { Media, MediaContextProvider } = AppMedia;
 const panes = [
   {
     menuItem: "Executive Board",
-    render: () => ( 
-      <Tab.Pane>
-        <Container>
-          <Container textAlign="center">
-            {" "}
-            <divider /> <Header as="h1">
-              {" "}
-              Meet Our E-Board{" "}
-            </Header> <divider /> <Header as="h2"> </Header>{" "}
-          </Container>
-          <MediaContextProvider>
-            <Segment as={Media} at="computer">
-              <Card.Group itemsPerRow={3}>
-                <ExecCards />
-              </Card.Group>
-            </Segment>
-          </MediaContextProvider>
-          <MediaContextProvider>
-            <Segment as={Media} at="mobile">
-              <Card.Group itemsPerRow={1}>
-                <ExecCards />
-              </Card.Group>
-            </Segment>
-          </MediaContextProvider>
-        </Container>
+    render: () => (
+      <Tab.Pane inverted='true'>
+        <divider /> <Header as="h1">Meet Our E-Board</Header> <divider />{" "}
+        <Header as="h2"> </Header>
+        <MediaContextProvider>
+          <Segment as={Media} at="computer" inverted='true'>
+            <Card.Group itemsPerRow={3} inverted='true'>
+              <ExecCards />
+            </Card.Group>
+          </Segment>
+        </MediaContextProvider>
+        <MediaContextProvider>
+          <Segment as={Media} at="mobile" inverted='true'>
+            <Card.Group itemsPerRow={1}>
+              <ExecCards />
+            </Card.Group>
+          </Segment>
+        </MediaContextProvider>
       </Tab.Pane>
     ),
   },
   {
     menuItem: "Chairs",
     render: () => (
-      <Tab.Pane>
-        <Container>
-          <Container textAlign="center">
-            {" "}
-            <divider /> <Header as="h1">
-              {" "}
-              Meet Our Chairs{" "}
-            </Header> <divider /> <Header as="h2"> </Header>{" "}
-          </Container>
-          <MediaContextProvider>
-            <Segment as={Media} at="computer">
-              <Card.Group itemsPerRow={3}>
-                <ChairCards />
-              </Card.Group>
-            </Segment>
-          </MediaContextProvider>
-          <MediaContextProvider>
-            <Segment as={Media} at="mobile">
-              <Card.Group itemsPerRow={1}>
-                <ChairCards />
-              </Card.Group>
-            </Segment>
-          </MediaContextProvider>
-        </Container>
+      <Tab.Pane inverted='true'>
+        <divider /> <Header as="h1"> Meet Our Chairs </Header> <divider />
+        <Header as="h2"> </Header>
+        <MediaContextProvider>
+          <Segment as={Media} at="computer" inverted='true'>
+            <Card.Group itemsPerRow={3} inverted='true'>
+              <ChairCards />
+            </Card.Group>
+          </Segment>
+        </MediaContextProvider>
+        <MediaContextProvider>
+          <Segment as={Media} at="mobile" inverted='true'>
+            <Card.Group itemsPerRow={1} inverted='true'>
+              <ChairCards />
+            </Card.Group>
+          </Segment>
+        </MediaContextProvider>
       </Tab.Pane>
     ),
   },
   {
     menuItem: "Web Dev Team",
     render: () => (
-      <Tab.Pane>
-          <Container textAlign="center">
-            {" "}
-            <divider /> <Header as="h1"> Meet Our Web Development Team </Header>{" "}
-            <divider /> <Header as="h2"> </Header>{" "}
-          </Container>
-          <MediaContextProvider>
-            <Segment as={Media} at="computer">
-              <Card.Group itemsPerRow={3}>
-                <WebTeamCards />
-              </Card.Group>
-            </Segment>
-          </MediaContextProvider>
-          <MediaContextProvider>
-            <Segment as={Media} at="mobile">
-              <Card.Group itemsPerRow={1}>
-                <WebTeamCards />
-              </Card.Group>
-            </Segment>
-          </MediaContextProvider>
+      <Tab.Pane inverted='true'>
+        <divider /> <Header as="h1">Meet Our Web Development Team</Header>
+        <divider /> <Header as="h2"> </Header>
+        <MediaContextProvider>
+          <Segment as={Media} at="computer" inverted='true'>
+            <Card.Group itemsPerRow={3} inverted='true'>
+              <WebTeamCards />
+            </Card.Group>
+          </Segment>
+        </MediaContextProvider>
+        <MediaContextProvider>
+          <Segment as={Media} at="mobile" inverted='true'>
+            <Card.Group itemsPerRow={1} inverted='true'>
+              <WebTeamCards />
+            </Card.Group>
+          </Segment>
+        </MediaContextProvider>
       </Tab.Pane>
     ),
   },
@@ -108,18 +90,21 @@ const panes = [
 
 function ContactInfo() {
   return (
-    <Container className='container'>
-      <Tab panes={panes} />
+    <Container className="container" inverted='true'>
+      <Tab
+        panes={panes}
+        menu={{ inverted: true }}
+      />
     </Container>
   );
 }
 
 const CardExampleFluid = () => (
   <Card.Group>
-    <Card fluid color='red' header='Option 1' />
-    <Card fluid color='orange' header='Option 2' />
-    <Card fluid color='yellow' header='Option 3' />
+    <Card fluid color="red" header="Option 1" />
+    <Card fluid color="orange" header="Option 2" />
+    <Card fluid color="yellow" header="Option 3" />
   </Card.Group>
-)
+);
 
 export default ContactInfo;

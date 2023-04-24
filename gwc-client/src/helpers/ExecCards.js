@@ -1,9 +1,9 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
-import MayaHarrisImage from "../officerImages/MayaHarris.JPG"
-import VictoriaDeAlbaImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg"
-import DishaGaonkarImage from "../officerImages/DishaGaonkar.jpg"
-import MaiaGervasoneImage from "../officerImages/MaiaGervasone.jpg"
+import MayaHarrisImage from "../officerImages/MayaHarris.JPG";
+import VictoriaDeAlbaImage from "../officerImages/VictoriaDeAlbaExternalVP.jpeg";
+import DishaGaonkarImage from "../officerImages/DishaGaonkar.jpg";
+import MaiaGervasoneImage from "../officerImages/MaiaGervasone.jpg";
 
 function ExecCards() {
   return (
@@ -14,7 +14,6 @@ function ExecCards() {
         "President",
         "girlswhocodeuf@gmail.com"
       )}
-
       {BoardCards(
         VictoriaDeAlbaImage,
         "Victoria De Alba",
@@ -27,15 +26,13 @@ function ExecCards() {
         "Vice-President Internal",
         "girlswhocodeuf@gmail.com"
       )}
-
       {BoardCards(
         PlaceHolderImage,
         "Lexi Watson",
         "Secretary",
         "girlswhocodeuf@gmail.com"
       )}
-
-        {BoardCards(
+      {BoardCards(
         MaiaGervasoneImage,
         "Maia Gervasone",
         "Treasurer",

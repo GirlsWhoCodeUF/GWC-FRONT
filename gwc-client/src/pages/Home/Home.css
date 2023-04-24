@@ -8,6 +8,7 @@ h1 {
     background-color: black;
     min-height: 100vh;
     width: 100hw;
+    padding-bottom: 20px;
 }
 
 .landing-info {
