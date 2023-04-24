@@ -6,12 +6,7 @@
   margin: 0;
   padding: 0%;
 }
-.fresnel-container {
-  background-color: black !important;
-}
-.fresnel-segment{
-  background-color: black !important;
-}
+
 
 .App-logo {
   height: 40vmin;
