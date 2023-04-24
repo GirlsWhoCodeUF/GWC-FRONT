@@ -11,6 +11,7 @@ import OurTeam from "./pages/OurTeam/OurTeam";
 function App() {
 
   return (
+    
       <Routes>
         <Route exact path="/" element={<Page content={<Home />}/>} />
         <Route exact path="/login" element={<Page content={<Login/>}/>} />
