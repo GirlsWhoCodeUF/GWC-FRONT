@@ -79,13 +79,12 @@ const panes = [
     ),
   },
   {
-    menuItem: "Web Development Team",
+    menuItem: "Web Dev Team",
     render: () => (
       <Tab.Pane>
-        <Container>
           <Container textAlign="center">
             {" "}
-            <divider /> <Header as="h1"> Meet Our Web Dev Team </Header>{" "}
+            <divider /> <Header as="h1"> Meet Our Web Development Team </Header>{" "}
             <divider /> <Header as="h2"> </Header>{" "}
           </Container>
           <MediaContextProvider>
@@ -102,7 +101,6 @@ const panes = [
               </Card.Group>
             </Segment>
           </MediaContextProvider>
-        </Container>
       </Tab.Pane>
     ),
   },
