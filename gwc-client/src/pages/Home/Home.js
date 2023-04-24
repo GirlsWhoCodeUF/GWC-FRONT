@@ -24,27 +24,39 @@ const Home = () => {
           <div class="column">
             <h2>BUILD SISTERHOOD</h2>
             <h3>
-              College & Career programs connect young women and non-binary
-              people who are interested in tech to build a supportive community
-              that helps them persist and succeed in the field.
+              Join a community of like-minded women who share a passion for
+              coding and technology. Through Girls Who at UF, you'll have the
+              opportunity to connect with other students who are pursuing
+              careers in tech and build lifelong friendships. By working
+              together, sharing experiences, and supporting each other, you'll
+              be able to create a network of supportive sisters that will be
+              there for you throughout your career.
             </h3>
           </div>
           <div class="column">
             <h2>BUILD LEADERSHIP</h2>
             <h3>
-              College & Careers offer students and young professionals
-              opportunities to practice leadership and learn from peers and
-              industry role models.
+              Girls Who Code at UF empowers women to become leaders in
+              technology. Through our programs and events, you'll gain the
+              skills and knowledge needed to succeed in your career, and you'll
+              have the opportunity to develop your leadership skills. You'll
+              learn how to take charge, collaborate effectively, and inspire
+              others to achieve their goals. Whether you want to lead a team,
+              start your own business, or make a difference in your community,
+              we will provide you with the tools you need to succeed.
             </h3>
           </div>
           <div class="column">
             <h2>BUILD YOUR CAREER</h2>
             <h3>
-              College & Career programs provide college-aged students and early
-              career professionals with exclusive opportunities to build
-              relationships with industry professionals, develop and practice
-              key skills, and connect with Girls Who Code corporate partners for
-              internships and jobs.
+              Girls Who Code provides you with the resources and support you
+              need to succeed in your career. Through our programs, you'll gain
+              hands-on experience in coding and technology, and you'll have the
+              opportunity to work on real-world projects. You'll learn from
+              experienced professionals in the field, and you'll have access to
+              resources that will help you land your dream job. Whether you want
+              to work for a tech giant, a startup, or a nonprofit, Girls Who
+              Code at UF will help you get there.
             </h3>
           </div>
         </div>
