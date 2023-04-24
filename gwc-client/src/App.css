@@ -2,7 +2,15 @@
   text-align: center;
   height: 100vh;
   width: 100%;
-  background-color: black;
+  background-color: rgb(6, 6, 6);
+  margin: 0;
+  padding: 0%;
+}
+.fresnel-container {
+  background-color: black !important;
+}
+.fresnel-segment{
+  background-color: black !important;
 }
 
 .App-logo {
@@ -10,11 +18,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -24,7 +28,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {

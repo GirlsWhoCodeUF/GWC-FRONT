@@ -1,23 +1,31 @@
-
 .navbar{
-    background-color: black;
-    box-sizing: border-box;
-    height: 90px;
-    color:aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black !important;
+    height: 100px;  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px; 
+    padding: 30px; 
+}
+
+
+
+
+.menu .item {
+    height: 60px;
+    width: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 45px;
-}
-.navbar a{
-    color: inherit;
-    text-decoration: none;
-    padding: 30px 30px
-    
-}
+    justify-content: center;
+  }
+.navbar-words{
+    color: aliceblue !important;
+    font-size: 15px;
 
-.navbar-right{
-    float:right;
-    justify-content: space-between;
+}
+.navbar-words:hover{
+    font-weight:bolder !important;
+}
+.picture{
+    width: 150px !important;
 }
