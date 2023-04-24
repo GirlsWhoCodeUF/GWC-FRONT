@@ -1,6 +1,7 @@
-import React from "react";
-import "./Contact.css";
-import { Button, TextArea, Form, Container, Grid } from "semantic-ui-react";
+import React from 'react'
+import './Contact.css'
+import { Button, TextArea, Form, Container, Grid } from 'semantic-ui-react'
+
 
 const Contact = () => {
   return (
@@ -11,32 +12,34 @@ const Contact = () => {
           <Form>
             <Form.Field>
               <label>First Name</label>
-              <input placeholder="First Name" />
+              <input placeholder='First Name' />
             </Form.Field>
             <Form.Field>
               <label>Last Name</label>
-              <input placeholder="Last Name" />
+              <input placeholder='Last Name' />
             </Form.Field>
             <Form.Field>
               <label>Email</label>
-              <input placeholder="Email" />
+              <input placeholder='Email' />
             </Form.Field>
             <Form.Field>
               <label>Affiliation</label>
-              <input placeholder="Affiliation" />
+              <input placeholder='Affiliation' />
             </Form.Field>
             <Form.Field
-              id="form-textarea-control-opinion"
+              id='form-textarea-control-opinion'
               control={TextArea}
-              label="Tell us more!"
-              placeholder="Tell us more!"
+              label='Tell us more!'
+              placeholder='Tell us more!'
             />
-            <Button type="submit">Submit</Button>
+            <Button type='submit'>Submit</Button>
           </Form>
         </Grid.Column>
       </Grid>
     </Container>
-  );
-};
+    
+  )
+}
 
 export default Contact;
+

@@ -1,13 +1,14 @@
 import PlaceHolderImage from "../officerImages/PlaceHolder.png";
 import BoardCards from "./BoardCards";
-import JessBogartImage from "../officerImages/JessicaBogart.PNG";
-import TanyaCharanImage from "../officerImages/TanyaCharan.jpeg";
-import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG";
-import KaylaMobergImage from "../officerImages/KaylaMoberg.jpeg";
-import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG";
-import MirandaIngramImage from "../officerImages/MirandaIngram.jpg";
-import SophiaKeaneImage from "../officerImages/SophiaKeane.jpg";
-import BriannaRodriguezImage from "../officerImages/BriannaRodriguez.PNG";
+import JessBogartImage from "../officerImages/JessicaBogart.PNG"
+import TanyaCharanImage from "../officerImages/TanyaCharan.jpeg"
+import NandikaRegattiImage from "../officerImages/NandikaRegatti.PNG"
+import KaylaMobergImage from "../officerImages/KaylaMoberg.jpeg"
+import JuliaChanceyImage from "../officerImages/JuliaChancey.JPG"
+import MirandaIngramImage from "../officerImages/MirandaIngram.jpg"
+import SophiaKeaneImage from "../officerImages/SophiaKeane.jpg"
+import BriannaRodriguezImage from "../officerImages/BriannaRodriguez.PNG"
+
 
 function ChairCards() {
   return (
@@ -49,9 +50,9 @@ function ChairCards() {
         "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
-        SophiaKeaneImage,
-        "Sophia Keane",
-        "Social",
+        SophiaKeaneImage, 
+        "Sophia Keane", 
+        "Social", 
         "girlswhocodeuf@gmail.com"
       )}
       {BoardCards(
