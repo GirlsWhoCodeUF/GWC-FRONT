@@ -69,3 +69,17 @@ h1 {
     width: 100% !important;
 }
 
+.ui.dimmer {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+  }
+  
+  .ui.dimmer .content {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    text-align: center !important;
+  }
+  
+  .ui.dimmer .content .button {
+    margin-top: 10px;
+  }
+  
