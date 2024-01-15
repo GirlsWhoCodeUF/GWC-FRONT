@@ -1,11 +1,12 @@
 h1 {
-    color: white;
+    color: white
+;
     text-align: center;
     padding-bottom: 20px;
 }
 
 .home {
-    background-color: black;
+    background-image: linear-gradient(180deg, #6aadff,#faeba8 );
     min-height: 100vh;
     width: 100hw;
 }
@@ -45,10 +46,67 @@ h1 {
     color: white;
     font-family: 'Open Sans';
 }
+.title1{
+    padding-top: 40px;
+    padding-bottom:0px;
+    font-size: 40px;
 
+}
+.title2{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #3f3a2a;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.button {
+  appearance: none;
+  background-color: #f4d46e;
+  border: 2px solid #fbfbfb;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color:#202431;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  color: #202431;
+  background-color: #f4d56eb4;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
 .mission-text {
     padding-top: 50px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Open Sans';
     text-align: left;
 }
@@ -62,10 +120,77 @@ h1 {
 }
 
 .ui.masthead.segment {
-    padding: 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../../media/HeroImage.JPEG');
+    padding: 15% 10% 5% 10%;
+    background-image: linear-gradient(rgba(243, 217, 141, 0.409),rgba(87, 142, 252, 0.5)) , url('../../media/HeroImage.JPEG');
     background-repeat: no-repeat !important;
     background-size: cover;
     width: 100% !important;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.container .card{
+    position: relative;
+    width:350px;
+    padding: 20px;
+    margin: 10px;
+    background-color:#f9ecd5;
+    align-self: flex-start;
+    border-radius: 6px;
+
+}
+.Title{
+    color:rgb(46, 49, 81);
+    }
+.container .card img{
+    margin-bottom: 0px;
+    height: auto;
+    max-width: 100%;
+}
+.container .card {
+
+    height: auto;
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+
+}
+.testimonials-text
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+.content{
+    max-width: 40rem;
+    margin:2rem auto;
+    background-color: #f9ecd5;
+    padding: 1rem;
+    border-radius: 4px;
+    
+}
+.long-text{
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    max-height: 0;
+    overflow: hidden;
+    display:inline-block;
+}
+.expanded{
+    max-height: 40rem;
+}
+
+.textareaElement {
+    width: 300px;
+    min-height: 1px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }

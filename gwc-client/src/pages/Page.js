@@ -4,11 +4,11 @@ import NavBar from '../components/Navbar'
 function Page({ content }) {
   return (
     <>
-     <div style={{ backgroundColor: 'black'}}>
+     <div style={{ backgroundColor: '#3B8BE8'}}>
         <NavBar />
         </div>
         <div style={{
-            backgroundColor: 'black',
+            backgroundColor: '#6aadff',
             width: '100hw',
             height: '100vh',
             margin: 0, 

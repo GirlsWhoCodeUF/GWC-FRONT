@@ -6,7 +6,8 @@ const Login = () => {
     <>
      <div style={{
       color: 'white'
-    }}>Login page stuff </div>
+    }}><h1>Login Page Coming Soon!!</h1> 
+    </div>
     </>
     
   )
