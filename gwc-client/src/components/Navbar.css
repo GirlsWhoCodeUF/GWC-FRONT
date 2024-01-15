@@ -1,5 +1,5 @@
 .navbar{
-    background-color: black !important;
+    background-color: #d6f0ff !important;
     height: 100px;  
     display: flex;
     align-items: flex-start;
@@ -7,7 +7,6 @@
     margin: 0px; 
     padding: 30px; 
 }
-
 
 
 
@@ -19,12 +18,13 @@
     justify-content: center;
   }
 .navbar-words{
-    color: aliceblue !important;
-    font-size: 15px;
+    color: rgb(46, 47, 66) !important;
+    font-weight:bolder !important;
+    font-size: 18px;
 
 }
 .navbar-words:hover{
-    font-weight:bolder !important;
+    color:rgb(246, 192, 44) !important;
 }
 .picture{
     width: 150px !important;

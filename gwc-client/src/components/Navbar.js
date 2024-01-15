@@ -24,7 +24,7 @@ function NavBar() {
   return (
     <>
       <MediaContextProvider>
-        <Segment as={Media} at="computer" style={{ backgroundColor: "black" }}>
+        <Segment as={Media} at="computer" style={{ backgroundColor: "#d6f0ff" }}>
           <Menu inverted className="navbar">
             <Menu.Item onClick={handleItemClick} as={Link} to="/">
               <img className="picture" src={logo} alt="" />
@@ -75,8 +75,9 @@ function NavBar() {
         </Segment>
       </MediaContextProvider>
 
-      <MediaContextProvider>
-        <Segment as={Media} at="mobile" style={{ backgroundColor: "black" }}>
+      
+      {/* <MediaContextProvider>
+        <Segment as={Media} at="mobile" style={{ backgroundColor: "#AC3B61" }}>
           <Menu inverted className="navbar">
             <Container>
               <Dropdown pointing item text="Menu">
@@ -129,7 +130,8 @@ function NavBar() {
             </Container>
           </Menu>
         </Segment>
-      </MediaContextProvider>
+      </MediaContextProvider> */}
+    
     </>
   );
 }
