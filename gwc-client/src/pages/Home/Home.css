@@ -5,9 +5,9 @@ h1 {
 }
 
 .home {
-    background-color: black;
+    background: linear-gradient(to bottom, #f7e3ff, #ff75a0); /* Gradient background from super light purple to pink */
     min-height: 100vh;
-    width: 100hw;
+    width: 100wh;
 }
 
 .landing-info {
@@ -63,9 +63,50 @@ h1 {
 
 .ui.masthead.segment {
     padding: 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../../media/HeroImage.JPEG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../../media/HeroImage.JPEG');
     background-repeat: no-repeat !important;
     background-size: cover;
     width: 100% !important;
 }
 
+.laptop-card {
+    position: relative;
+    background: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 100%;
+    color: #000;
+    transition: transform 0.5s ease, box-shadow 0.2s ease; /* Adjust the transition duration */
+}
+
+.laptop-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a slight shadow effect */
+}
+
+.screen {
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+    background: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    transition: transform 0.2s ease; /* Adjust the transition duration */
+}
+
+.laptop-card:hover .screen {
+    transform: scale(1);
+}
+
+.base {
+    background: #f7f7f7;
+    border-radius: 0 0 15px 15px;
+    height: 1rem;
+    color: #000;
+    transition: transform 0.2s ease; /* Adjust the transition duration */
+}
+
+.laptop-card:hover .base {
+    transform: scale(1);
+}
